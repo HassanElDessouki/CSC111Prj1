@@ -1,0 +1,229 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  line-height: 1.6;
+}
+
+p-9 {
+  background-color: #ecf0f100;
+  border: 1px solid #bdc3c700;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px 0;
+  opacity: 0;
+  animation: slideIn 3s forwards;
+  text-align: center;
+}
+
+header {
+  background: #1f2981;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+section {
+  margin: 45px;
+  padding: 15px;
+  background-color: #f4f4f4;
+  border: 1px solid #ee181800;
+  border-radius: 3px;
+  text-align: left;
+  box-shadow: 0 0 10px rgba(8, 8, 8, 0.279);
+}
+
+.USA {
+  margin: 20px;
+  padding: 15px;
+  background-color: #ffffff;
+  border: 1px solid #ee181800;
+  border-radius: 3px;
+  text-align: left;
+  box-shadow: 0 0 10px rgba(8, 8, 8, 0.279);
+}
+
+.hiking {
+  width: 25%;
+  height: auto;
+  margin: 10;
+  border-radius: 5px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+}
+.Grand  {
+  width: 25%;
+  height: auto;
+  margin: 10;
+  border-radius: 5px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+}
+.santa  {
+  width: 25%;
+  height: auto;
+  margin: 10;
+  border-radius: 5px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+}
+.Disney  {
+  width: 94%;
+  height: auto;
+  margin: 10;
+  border-radius: 5px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+}
+
+p {
+  background-color: #ecf0f100;
+  border: 1px solid #bdc3c700;
+  border-radius: 5px;
+  padding: 0px;
+  margin: 0px 0;
+  opacity: 0;
+  animation: slideIn 2s forwards;
+  text-align: center;
+}
+
+h3 {
+  margin-bottom: 10px;
+  color: #000000;
+  text-align: center;
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+.card {
+  background: #f4f4f4;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  width: 30%;
+  text-align: center;
+  padding: 15px;
+}
+.card img {
+  max-width: 100%;
+  border-radius: 5px;
+}
+
+h2 {
+  margin-bottom: -20px;
+  color: #000000;
+  text-align: center;
+  padding: 30px;
+}
+
+.new {
+  width: 5%;
+  height: auto;
+}
+.los {
+  width: 5%;
+  height: auto;
+}
+.miami {
+  width: 5%;
+  height: auto;
+  
+}
+
+button-s {
+  background-color: #20c73f00;
+  color: #000000;
+  padding: 0px;
+  border: 0;
+  border-radius: 0px;
+  border-color: #ffffff00;
+  cursor: pointer;
+}
+button-s:hover {
+  background-color: #fffefe00;
+  color: #1f2981;
+}
+.hidden {
+  display: none;
+}
+
+p-2 {
+  background-color: #ecf0f100;
+  border: 1px solid #bdc3c700;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px 0;
+  opacity: 0;
+  animation: slideIn 2s forwards;
+  text-align: center;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+th {
+  background-color: #1f298169;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes slideIn {
+  from {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.contact {
+  margin: 30px;
+  padding: 15px;
+  background-color: #ffffff;
+  border: 1px solid #ee181800;
+  border-radius: 3px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(8, 8, 8, 0.43);
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #1f2981;
+  color: #fff;
+}

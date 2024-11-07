@@ -1,0 +1,267 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Merienda', sans-serif;
+  text-align: left;
+  margin: 0px;
+  background-color: #ffffff;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+p-4 {
+  background-color: #ecf0f100;
+  border: 1px solid #bdc3c700;
+  border-radius: 0px;
+  padding: -10px;
+  margin: 0px 0;
+  opacity: 0;
+  animation: slideIn 2s forwards;
+  text-align: center;
+}
+
+header {
+  background-color: #ee1818;
+  color: #ff000000;
+  padding: 15px;
+  text-align: center;
+  margin: -20px;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+h1 {
+  margin-bottom: 10px;
+  color: #000000;
+}
+
+h2 {
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+
+h3 {
+  margin-bottom: 10px;
+  color: #000000;
+}
+
+.destination-imageflag {
+  width: 10%;
+  height: auto;
+  margin: -10;
+  border-radius: 5px;
+  margin-bottom: 0px;
+}
+
+.destination-imageairplane {
+  width: 10%;
+  height: auto;
+  margin: -10;
+  border-radius: 0px;
+  margin-bottom: 0px;
+}
+
+p-1 {
+  background-color: #ecf0f100;
+  border: 1px solid #bdc3c700;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px 0;
+  opacity: 0;
+  animation: slideIn 2s forwards;
+}
+
+section {
+  margin: 30px;
+  padding: 15px;
+  background-color: #ffffff;
+  border: 1px solid #ee181800;
+  border-radius: 3px;
+  text-align: left;
+  box-shadow: 0 0 10px rgba(8, 8, 8, 0.474);
+}
+
+h3 {
+  margin-bottom: 10px;
+  color: #000000;
+}
+
+button-s {
+  background-color: #20c73f00;
+  color: #000000;
+  padding: 0px;
+  border: 0;
+  border-radius: 0px;
+  border-color: #ffffff00;
+  cursor: pointer;
+}
+
+button-s:hover {
+  background-color: #fffefe00;
+  color: #ee1818;
+}
+
+p-2 {
+  background-color: #ecf0f100;
+  border: 1px solid #bdc3c700;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px 0;
+  opacity: 0;
+  animation: slideIn 2s forwards;
+  text-align: center;
+}
+
+.destination-imageToronto {
+  width: 30%;
+  height: auto;
+  margin: 10;
+  border-radius: 5px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+}
+
+button-e {
+  background-color: #20c73f00;
+  color: #000000;
+  padding: 0px;
+  border: 0;
+  border-radius: 0px;
+  border-color: #ffffff00;
+  cursor: pointer;
+}
+
+button-e:hover {
+  background-color: #fffefe00;
+  color: #ee1818;
+}
+
+button-t {
+  background-color: #20c73f00;
+  color: #000000;
+  padding: 0px;
+  border: 0;
+  border-radius: 0px;
+  border-color: #ffffff00;
+  cursor: pointer;
+}
+
+button-t:hover {
+  background-color: #fffefe00;
+  color: #ee1818;
+}
+
+p-3 {
+  background-color: #ecf0f100;
+  border: 1px solid #bdc3c700;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px 0;
+  opacity: 0;
+  animation: slideIn 1s forwards;
+  text-align: center;
+}
+
+.destination-imageTourtière {
+  width: 25%;
+  height: auto;
+  margin: 10;
+  border-radius: 5px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+}
+.destination-imageBannock {
+  width: 25%;
+  height: auto;
+  margin: 10;
+  border-radius: 5px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+}
+.destination-imageNanaimo {
+  width: 25%;
+  height: auto;
+  margin: 10;
+  border-radius: 5px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+}
+.destination-imageBeaverTails {
+  width: 25%;
+  height: auto;
+  margin: 10;
+  border-radius: 5px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+}
+
+h4 {
+  margin-bottom: 10px;
+  color: #ee1818;
+}
+
+.hidden {
+  display: none;
+}
+
+footer {
+  text-align: center;
+  background-color: #ee1818;
+  color: #000000;
+  margin-top: 10px;
+  padding: 15px;
+  margin: -20px;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+th {
+  background-color: #f2f2f2;
+}

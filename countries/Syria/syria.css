@@ -1,0 +1,57 @@
+.header .title {
+    font-size: 1.5em;
+}
+
+.header .nav-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.header .nav-buttons button {
+    padding: 8px 16px;
+    background-color: #CE1126;
+    color: white;
+    cursor: pointer;
+    border-radius: 8px;
+    font-size: 1em;
+    font-family: "Playwrite GB S";
+    transition: background-color 0.25s;
+}
+
+.header .nav-buttons button:hover {
+    background-color: white;
+    background-color: #6e0612;
+}
+ 
+.header .nav-buttons button:focus,
+.header .nav-buttons button:active {
+    background-color: #5a0610;
+    transition: none;
+}
+
+.header {
+    background-color: #CE1126;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.bread {
+    width: 150px; 
+    display: block
+}
+
+.pagecontent {
+    list-style-position: inside;
+}
+  
+.pagecontent a {
+    color: inherit;
+    font-weight: 500; 
+}
+
+.pagecontent ul {
+    padding-left: 20px;
+}

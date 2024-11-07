@@ -1,0 +1,79 @@
+ /* General body styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #a09c9c;
+    color: #333;
+}
+
+/* Header styles */
+header {
+    background-color: #ffffff; /* Gold color for Mexico */
+    color: #ffffff; /* Vibrant red for Brazil */
+    padding: 20px;
+    text-align: center;
+}
+
+/* Main heading */
+h1 {
+    font-size: 2.5em;
+    margin: 0;
+    color: #101322;
+}
+
+/* Subheadings */
+h2 {
+    font-size: 2em;
+    color: #101322; /* Blue for contrast */
+}
+
+/* Paragraph styles */
+p {
+    margin: 15px 0;
+    font-size: 1.1em;
+}
+
+/* Image styles */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.image-container {
+    text-align:center;
+
+}
+/* Link styles */
+a {
+    color: #564a6d; /* Green for links */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Container for content */
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #101322;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #101322;
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}

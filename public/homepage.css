@@ -1,0 +1,127 @@
+.container {  
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr auto;
+    gap: 0;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "header"
+        "main"
+        "footer";
+        height: 100vh; /* Full viewport height */
+    font-family: "Playwrite GB S";
+}
+
+.main {
+  margin: 20px;
+  padding: 20px;
+}
+
+html {
+    background-color:antiquewhite
+}
+
+.footer { 
+    grid-area: footer;  
+    text-align: center;
+    padding: 5px 0; 
+}
+
+.mapIcon {
+  margin-left: auto;
+  margin-right: auto
+}
+
+.countryText {
+  position: absolute;
+  top: -30px;
+  left: 50%;
+  transform: translateX(-45%);
+  color: #852b1b;
+  padding: 3px;
+  border-radius: 5px;
+  font-family: "Itim", cursive;
+  background-color: rgba(0, 0, 0, 0.7);
+  font-size: 18px;
+  display: none;
+  white-space: nowrap;
+  z-index: 10;
+}
+
+#map-container {
+    position: relative;
+  }
+
+  #map-container .location {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    background-image: url('../icon.png');
+    cursor: pointer;
+  }
+
+  #map-container .location.active {
+    background: yellow;
+  }
+  
+  #map-container .location#pakistan {
+    top: 190px;
+    left: 885px;
+  }
+  
+  #map-container .location#syria {
+    top: 185px;
+    left: 782px;
+  }
+  
+  #map-container .location#italy {
+    top: 140px;
+    left: 685px;
+  }
+
+  #map-container .location#uk {
+    top: 105px;
+    left: 635px;
+  }
+
+  #map-container .location#egypt {
+    top: 200px;
+    left: 755px;
+  }
+
+  #map-container .location#palestine {
+    top: 190px;
+    left: 770px;
+  }
+
+  #map-container .location#canada {
+    top: 105px;
+    left: 265px;
+  }
+
+  #map-container .location#usa {
+    top: 165px;
+    left: 265px;
+  }
+
+  #map-container .location#brazil {
+    top: 335px;
+    left: 473px;
+  }
+
+  #map-container .location#mexico {
+    top: 225px;
+    left: 275px;
+  }
+
+  #map-container .location#kenya {
+    top: 305px;
+    left: 770px;
+  }
+
+  #map-container .location:hover .countryText {
+    display: block;
+  }
+  
+

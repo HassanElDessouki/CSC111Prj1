@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>GlobeGetAway</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Amiri&family=Cairo&family=Cedarville+Cursive&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Amiri&family=Cairo&family=Cedarville+Cursive&family=Itim&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+
+        <link href="./public/homepage.css" rel="stylesheet">
+        <link href="./public/header.css" rel="stylesheet">
+        <script src="./public/script.js"></script>
+        <link rel="icon" type="image/x-icon" href="../../public/favicon.ico">
+	</head>
+	<body>
+        <div class="container">
+            <div class="header">
+                <div class="title"><bold>GlobeGetaway</bold></div>
+                <div class="nav-buttons">
+                    <button onclick="window.location.href='./main.html'">Home</button>
+                    <button onclick="window.location.href='./about.html'">About</button>
+                </div>
+            </div>
+            <div class="main" style="margin: auto;">
+                <p style="margin: 5px; font-size: 32px; text-align: center; font-family: 'Cedarville Cursive', cursive">Explore the World in a Click!</p>
+                <div id="map-container">
+                    <img src="./public/Earth.jpg" id="image" alt="Earth Map" usemap="#countryMap" width="1300px">
+                    <div id="pakistan" onclick="explore(id)" class="location"><img class="mapIcon" width="25px"src="./public/icon.png"><div class="countryText">Pakistan</div></div>
+                    <div id="syria" onclick="explore(id)" class="location"><img class="mapIcon" width="15px" src="./public/icon.png"><div class="countryText">Syria</div></div>
+                    <div id="uk" onclick="explore(id)" class="location"><img class="mapIcon" width="25px" src="./public/icon.png"><div class="countryText">United Kingdom</div></div>
+                    <div id="italy" onclick="explore(id)" class="location"><img class="mapIcon" width="25px" src="./public/icon.png"><div class="countryText">Italy</div></div>
+                    <div id="kenya" onclick="explore(id)" class="location"><img class="mapIcon" width="25px" src="./public/icon.png"><div class="countryText">Kenya</div></div>
+                    <div id="egypt" onclick="explore(id)" class="location"><img class="mapIcon" width="15px" src="./public/icon.png"><div class="countryText">Egypt</div></div>
+                    <div id="brazil" onclick="explore(id)" class="location"><img class="mapIcon" width="25px" src="./public/icon.png"><div class="countryText">Brazil</div></div>
+                    <div id="mexico" onclick="explore(id)" class="location"><img class="mapIcon" width="25px "src="./public/icon.png"><div class="countryText">Mexico</div></div>
+                    <div id="usa" onclick="explore(id)" class="location"><img class="mapIcon" width="25px" src="./public/icon.png"><div class="countryText">United States of America</div></div>
+                    <div id="canada" onclick="explore(id)" class="location"><img class="mapIcon" width="25px" src="./public/icon.png"><div class="countryText">Canada</div></div>
+                    <div id="palestine" onclick="explore(id)" class="location"><img class="mapIcon" width="15px" src="./public/icon.png"><div class="countryText">Palestine</div></div>
+                </div>
+            </div>
+            <div class="footer">
+                <p>© 2024 GlobeGetaway</p>
+            </div>
+        </div>
+	</body>
+</html>

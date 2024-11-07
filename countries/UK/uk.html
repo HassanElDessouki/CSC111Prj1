@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Explore the UK</title>
+  <!-- Google Fonts for a Classic British Look -->
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Playfair+Display&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header>
+    <h1>Welcome to the United Kingdom</h1>
+    <nav>
+      <ul>
+        <li><a href="#destinations">Destinations</a></li>
+        <li><a href="#food">Food</a></li>
+        <li><a href="#culture">Culture</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="intro">
+    <h2>Discover the UK</h2>
+    <img src="./London-1.jpg" alt="Scenic view of the UK">
+    <p style="text-align: center">The United Kingdom is rich in history, from its royal heritage and stunning countryside to vibrant cities and iconic landmarks. Join us on a journey through the UK's most beloved destinations and traditions.</p>
+  </section>
+
+  <section id="destinations" class="content-section">
+    <h2>Top Destinations in the UK</h2>
+    <div class="destination-grid">
+      <div class="destination" onclick="showInfo('London')">
+        <img src="./London_Big_Ben_Phone_box.jpg" alt="London">
+        <h3>London</h3>
+        <p>The capital city known for Big Ben, Buckingham Palace, and the Thames.</p>
+      </div>
+      <div class="destination" onclick="showInfo('Edinburgh')">
+        <img src="./edinburgh-1969709_1920.jpg" alt="Edinburgh">
+        <h3>Edinburgh</h3>
+        <p>The historic capital of Scotland with a stunning castle and festivals.</p>
+      </div>
+      <div class="destination" onclick="showInfo('Lake District')">
+        <img src="./shutterstock_1850668618-scaled.jpg" alt="Lake District">
+        <h3>Lake District</h3>
+        <p>A region of stunning natural beauty, lakes, and mountains.</p>
+      </div>
+      <div class="destination" onclick="showInfo('Stonehenge')">
+        <img src="./images.jpeg" alt="Stonehenge">
+        <h3>Stonehenge</h3>
+        <p>One of the most famous prehistoric monuments in the world.</p>
+      </div>
+    </div>
+    <div id="destination-info"></div>
+  </section>
+
+  <section id="food" class="content-section">
+    <h2>Traditional UK Food</h2>
+    <div class="food-grid">
+      <div class="food-item">
+        <img src="./SES-best-fish-and-chips-recipe-434856-hero-01-27d8b57008414972822b866609d0af9b.jpg" alt="Fish and Chips">
+        <h3>Fish and Chips</h3>
+        <p>A classic British dish of battered fish with chips.</p>
+      </div>
+      <div class="food-item">
+        <img src="./Sunday_roast_-_roast_beef_1.jpg" alt="Sunday Roast">
+        <h3>Sunday Roast</h3>
+        <p>A traditional meal served with meat, potatoes, and Yorkshire pudding.</p>
+      </div>
+      <div class="food-item">
+        <img src="./The-Stafford-London-Afternoon-Tea-6875d5c.jpg" alt="Afternoon Tea">
+        <h3>Afternoon Tea</h3>
+        <p>A quintessentially British experience with tea, scones, and sandwiches.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="culture" class="content-section">
+    <h2>British Culture</h2>
+    <img src="./British-Royal-Guards.jpeg" alt="British Culture">
+    <p>The UK is famous for its royal heritage, iconic fashion, and vibrant arts scene. From music and literature to theatre and traditions, British culture has influenced the world.</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 Explore the UK. All rights reserved.</p>
+  </footer>
+</body>
+</html>

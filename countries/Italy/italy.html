@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Explore Italy</title>
+  <!-- Google Fonts for Italian Styling -->
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header>
+    <h1>Benvenuto in Italia</h1>
+    <nav>
+      <ul>
+        <li><a href="#destinations">Destinations</a></li>
+        <li><a href="#food">Food</a></li>
+        <li><a href="#culture">Culture</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="intro">
+    <h2>Welcome to Italy</h2>
+    <img src= "./Scenic view of Amalfi Coast, Italy.jpg" Scenic view of Italy>
+    
+    <p style="text-align: center">Italy, a country rich in history, art, and cuisine, invites you to explore its endless beauty. Discover its ancient ruins, charming streets, and stunning landscapes.</p>
+  </section>
+
+  <section id="destinations" class="content-section">
+    <h2>Top Destinations in Italy</h2>
+    <div class="destination-grid">
+      <div class="destination" onclick="showInfo('Rome')">
+        <img src="./HERO_UltimateRome_Hero_shutterstock789412159.jpg" alt="Rome">
+        <h3>Rome</h3>
+        <p>The Eternal City, known for its historical landmarks.</p>
+      </div>
+      <div class="destination" onclick="showInfo('Venice')">
+        <img src="./download.jpeg" alt="Venice">
+        <h3>Venice</h3>
+        <p>A romantic city with beautiful canals and gondolas.</p>
+      </div>
+      <div class="destination" onclick="showInfo('Florence')">
+        <img src="./firenze-1268272_960_720.jpg" alt="Florence">
+        <h3>Florence</h3>
+        <p>The birthplace of the Renaissance and art masterpieces.</p>
+      </div>
+      <div class="destination" onclick="showInfo('Amalfi Coast')">
+        <img src="./best-time-to-visit-AMALFI0622-e442428423b94e41a3817f3192ba0c2b.jpg" alt="Amalfi Coast">
+        <h3>Amalfi Coast</h3>
+        <p>Known for its stunning cliffs and turquoise waters.</p>
+      </div>
+    </div>
+    <div id="destination-info"></div>
+  </section>
+
+  <section id="food" class="content-section">
+    <h2>Italian Food</h2>
+    <div class="food-grid">
+      <div class="food-item">
+        <img src="./types-of-italian-pizza.jpg" alt="Pizza">
+        <h3>Pizza</h3>
+        <p>A world-famous dish originating from Naples.</p>
+      </div>
+      <div class="food-item">
+        <img src="./Italian-Shrimp-and-Pasta_EXPS_FT24_23254_EC_041724_1.jpg" alt="Pasta">
+        <h3>Pasta</h3>
+        <p>Various types and shapes, often served with rich sauces.</p>
+      </div>
+      <div class="food-item">
+        <img src="./iStock-531264208.jpg" alt="Gelato">
+        <h3>Gelato</h3>
+        <p>Italian ice cream, known for its rich and creamy texture.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="culture" class="content-section">
+    <h2>Italian Culture</h2>
+    <img src="./San-Gennaro_NYC-scaled.jpeg" alt="Italian Culture">
+    <p>Italy has a rich cultural heritage. Art, architecture, music, and fashion play an important role in Italian life. Italians are known for their passion, strong family ties, and beautiful language.</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 Explore Italy. All rights reserved.</p>
+  </footer>
+</body>
+</html>

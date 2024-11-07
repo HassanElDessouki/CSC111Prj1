@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+
+    font-family: "Playwrite GB S", cursive;
+    line-height: 1.6;
+    color:#333 ;
+    background-color: #f4f4f9;
+  }
+  
+  header {
+    background-color: #1a9fdc;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1, h2 {
+    margin-bottom: 10px;
+  }
+  
+  section {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+  }
+  
+  .destination-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+  }
+  
+  button {
+    background-color: #1a9fdc;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #1a9fdc;
+   
+  }
+  
+  footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #1a9fdc;
+    color: #fff;
+    margin-top: 20px;
+  }
+  
+  .hidden {
+    display: none;
+  }
